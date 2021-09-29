@@ -9,7 +9,7 @@ const waitBufferUpdating = (sourceBuffer) => {
       } else {
         check();
       }
-    }, 1000);
+    }, 100);
   });
 }
 
@@ -51,6 +51,8 @@ const App = () => {
             sourceBuffer.appendBuffer(chunk);
             await waitBufferUpdating(sourceBuffer);
           }
+
+          source.endOfStream();
         }
         )();
       })();
@@ -61,6 +63,8 @@ const App = () => {
       <video
         id='player'
         controls
+        width={window.innerWidth}
+        height={window.innerHeight}
       >
       </video>
     </div>
