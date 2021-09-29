@@ -1,7 +1,5 @@
 # Test Client Media Decrypt
 
-For Desktop
-
 http://video-client-decrypt-sample.s3-website.ap-northeast-2.amazonaws.com/  
 
 클라에서 Video를 받는 경우를 막기위해  
