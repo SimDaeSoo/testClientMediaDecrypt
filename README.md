@@ -1,5 +1,6 @@
 # Test Client Media Decrypt
 
+http://video-client-decrypt-sample.s3-website.ap-northeast-2.amazonaws.com/  
 
 클라에서 Video를 받는 경우를 막기위해  
 잘 모르는 사람은 Video를 다운받을 수 없도록 Client단에서 decrypt한다.  
